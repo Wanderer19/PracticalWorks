@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace Files.Solutions
+namespace Files
 {
     public class CodeConverterToHtml
     {

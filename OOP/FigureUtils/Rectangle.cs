@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace OOP.Solutions.FigureUtils
+namespace OOP.FigureUtils
 {
-    public class Rectangle : IFigure
+    public class Rectangle : IFigure //реализовываем интерфейс, то есть определяем все методы, которые в нем описаны
     {
         private double a, b;
 

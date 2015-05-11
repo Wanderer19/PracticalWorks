@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace OOP.Solutions.FigureUtils
+namespace OOP.FigureUtils
 {
-    public class Square : IFigure
+    public class Square : IFigure //реализовываем интерфейс, то есть определяем все методы, которые в нем описаны
     {
         private readonly double sideSize;
 

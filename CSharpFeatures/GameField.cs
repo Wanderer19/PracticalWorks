@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace CSharpFeatures.Solutions
+namespace CSharpFeatures
 {
     public enum CellMark
     {
@@ -21,7 +21,7 @@ namespace CSharpFeatures.Solutions
         {
             this.size = size;
             
-            //создаем массивы нужной длины, значениями элементов которых будут массивы этой же длины. Матрицы.
+            //создаем массивы нужной длины, значениями элементов которых будут массивы этой же длины( Матрицы ).
             rows = Enumerable.Range(0, size).Select(i => new CellMark[size]).ToArray(); // Матрица размера size x size
             columns = Enumerable.Range(0, size).Select(i => new CellMark[size]).ToArray();// Матрица размера size x size
             diagonals = Enumerable.Range(0, 2).Select(i => new CellMark[size]).ToArray();// Матрица размера 2 x size
@@ -51,8 +51,39 @@ namespace CSharpFeatures.Solutions
 
         public bool HasWinner()
         {
-            //linq выражения для лаконичной записи, заменяются циклами по каждому из массивов, если в каком-то из массивов есть выигрышный, то сразу вернуть true, иначе false
+            //linq выражения для лаконичной записи, заменяются циклами по каждому из массивов, 
+            //если в каком-то из массивов есть выигрышный, то сразу вернуть true, иначе false
+            //см метод HasWinner2(реализация на основе циклов)
             return rows.Any(IsWinnerLine) || columns.Any(IsWinnerLine) || diagonals.Any(IsWinnerLine);
+        }
+
+        public bool HasWinner2()
+        {
+            foreach (var row in rows)
+            {
+                if (IsWinnerLine(row))
+                {
+                    return true;
+                }
+            }
+
+            foreach (var column in columns)
+            {
+                if (IsWinnerLine(column))
+                {
+                    return true;
+                }
+            }
+
+            foreach (var diagonal in diagonals)
+            {
+                if (IsWinnerLine(diagonal))
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         private static bool IsWinnerLine(CellMark[] line)

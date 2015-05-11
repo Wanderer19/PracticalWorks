@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OOP.Solutions.CompositeUtils;
 
-namespace OOP.Implementation.CompositeUtils
+namespace OOP.CompositeUtils
 {
-    public sealed class Card:CompositeEquipment
+    public sealed class Card : CompositeEquipment // наследуем от родительского класса, то есть нам доступны все его методы и свойства
     {
         private readonly string name;
 
+        // переопределяем виртуальное свойство класса - родителя
         public override string Name
         {
             get { return name; }

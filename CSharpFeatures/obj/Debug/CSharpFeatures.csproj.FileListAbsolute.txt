@@ -10,3 +10,9 @@ G:\CourseWork\CSharpFeatures\bin\Debug\nunit.framework.dll
 G:\CourseWork\CSharpFeatures\bin\Debug\nunit.framework.xml
 G:\CourseWork\CSharpFeatures\obj\Debug\CSharpFeatures.dll
 G:\CourseWork\CSharpFeatures\obj\Debug\CSharpFeatures.pdb
+C:\Users\1\Desktop\PracticalWorks\CSharpFeatures\bin\Debug\CSharpFeatures.dll
+C:\Users\1\Desktop\PracticalWorks\CSharpFeatures\bin\Debug\CSharpFeatures.pdb
+C:\Users\1\Desktop\PracticalWorks\CSharpFeatures\bin\Debug\nunit.framework.dll
+C:\Users\1\Desktop\PracticalWorks\CSharpFeatures\bin\Debug\nunit.framework.xml
+C:\Users\1\Desktop\PracticalWorks\CSharpFeatures\obj\Debug\CSharpFeatures.dll
+C:\Users\1\Desktop\PracticalWorks\CSharpFeatures\obj\Debug\CSharpFeatures.pdb

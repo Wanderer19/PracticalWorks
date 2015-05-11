@@ -1,5 +1,6 @@
-﻿namespace OOP.Solutions.CompositeUtils
+﻿namespace OOP.CompositeUtils
 {
+    //абстрактный класс, чьи экземпляры нельзя создавать, от него можно только наследовать
     public abstract class Equipment
     {
         public abstract string Name { get; }

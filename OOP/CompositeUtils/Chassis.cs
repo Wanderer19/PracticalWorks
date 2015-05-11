@@ -1,11 +1,12 @@
 ﻿using System;
 
-namespace OOP.Solutions.CompositeUtils
+namespace OOP.CompositeUtils
 {
-    public class Chassis: CompositeEquipment
+    public class Chassis: CompositeEquipment// наследуем от родительского класса, то есть нам доступны все его методы и свойства
     {
         private readonly string name;
 
+        // переопределяем виртуальное свойство класса - родителя
         public override string Name
         {
             get { return name; }

@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CSharpFeatures.Solutions
+namespace CSharpFeatures
 {
     public static class ArrayExtensions
     {
-        //ключевое слово this делает обычный статический метод "как бы" динамическим методом того класса, который указан после этого слова в первом аргументе.
+        //ключевое слово this делает обычный статический метод "как бы" динамическим методом того класса,
+        //который указан после этого слова в первом аргументе.
         public static void Swap<T>(this T[] array, int i, int j)
         {
             if (i < 0 || i >= array.Length || j < 0 || j >= array.Length)
@@ -40,6 +41,8 @@ namespace CSharpFeatures.Solutions
                 throw new ArgumentException();
             }
 
+            //так как count может быть больше, чем позволяет длина массива, нам необходима заранее определить границу, 
+            //до которой будут копироваться элементы в результирующий ответ
             var bound = Math.Min(array.Length - startIndex, count);
             var slice = new List<T>();
             for (var i = startIndex; i < bound + startIndex; ++i)

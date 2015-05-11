@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 
-namespace Algorithms.Solutions
+namespace Algorithms
 {
     public static class SubsetsGenerator
     {
@@ -14,8 +13,16 @@ namespace Algorithms.Solutions
         {
             if (position == originalSet.Length)
             {
-                //linq выражение, которое можно заменить на цикл, в котором проверяется значение элемента в маске, и если оно true , то вернуть элемент с таким индексом
-                yield return originalSet.Where((i, j) => mask[j]).ToArray();
+                var subset = new List<T>();
+                for (var i = 0; i < mask.Length; ++i)
+                {
+                    //если элемент и с индексом i из исходного множества присутсвует в данном подмножестве, то добавляем его
+                    if (mask[i])
+                    {
+                        subset.Add(originalSet[i]);
+                    }
+                }
+                yield return subset.ToArray();
                 yield break;
             }
 

@@ -1,9 +1,12 @@
 ﻿using System;
 
-namespace OOP.Solutions
+namespace OOP
 {
     public class Complex 
     {
+        // автоматические свойства, для которых не надо создавать приватных переменных
+        //private set означет, что кроме как внутри класс устанавливать значения в эти свойства нельзя
+        //get означает, что значение данного свойства можно получить и вне данного класса (отсутствие модификатора доступа эквивалентно public)
         public double Real { get; private set; }
         public double Imaginary { get; private set; }
         
@@ -53,10 +56,17 @@ namespace OOP.Solutions
             return Math.Abs(Real - other.Real) < tolerance && Math.Abs(Imaginary - other.Imaginary) < tolerance;
         }
 
+        //при переопределении метода Equals обычно в паре переопределяют метод GetHashCode, который возвращает целое число, обладающее свойствами
+        //если объекты равны, то хэш коды у них равны, если объекты разные, то хэш коды могут и совпасть, 
+        //а если хэш коды не совпадают, то объекты разные
         public override int GetHashCode()
         {
+            //конструкция unchecked означает, что если внутри, после завершения числовых операций произойдет переполнение
+            //( в данном случае, если значения выйдут из диапазона типа int),
+            //то не будет выброшено исключение OverflowException
             unchecked
             {
+                //операция ^ (xor) исключающее или
                 return (Real.GetHashCode() * 397) ^ Imaginary.GetHashCode();
             }
         }

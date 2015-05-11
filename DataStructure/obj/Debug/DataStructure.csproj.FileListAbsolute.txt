@@ -12,3 +12,10 @@ G:\CourseWork\DataStructure\DataStructure.dll
 G:\CourseWork\DataStructure\DataStructure.pdb
 G:\CourseWork\DataStructure\nunit.framework.dll
 G:\CourseWork\DataStructure\nunit.framework.xml
+C:\Users\1\Desktop\PracticalWorks\DataStructure\obj\Debug\DataStructure.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\PracticalWorks\DataStructure\obj\Debug\DataStructure.dll
+C:\Users\1\Desktop\PracticalWorks\DataStructure\obj\Debug\DataStructure.pdb
+C:\Users\1\Desktop\PracticalWorks\DataStructure\DataStructure.dll
+C:\Users\1\Desktop\PracticalWorks\DataStructure\DataStructure.pdb
+C:\Users\1\Desktop\PracticalWorks\DataStructure\nunit.framework.dll
+C:\Users\1\Desktop\PracticalWorks\DataStructure\nunit.framework.xml

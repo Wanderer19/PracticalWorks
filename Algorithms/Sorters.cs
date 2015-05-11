@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Algorithms.Solutions
+namespace Algorithms
 {
     public static class Sorters<T> where T : IComparable
     {
@@ -25,6 +25,7 @@ namespace Algorithms.Solutions
         {
             for (var i = 0; i < array.Length - 1; i++)
             {
+                //выбираем минимальный элемент в массиве от i + 1 До конца
                 var min = i;
                 for (var j = i + 1; j < array.Length; j++)
                 {
@@ -33,6 +34,7 @@ namespace Algorithms.Solutions
 
                 }
 
+                //обмениваем минимальный и текущий
                 var dummy = array[i];
                 array[i] = array[min];
                 array[min] = dummy;

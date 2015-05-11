@@ -14,3 +14,9 @@ G:\CourseWork\Files\Tests\nunit.framework.dll
 G:\CourseWork\Files\Tests\nunit.framework.xml
 G:\CourseWork\Files\obj\Debug\Files.dll
 G:\CourseWork\Files\obj\Debug\Files.pdb
+C:\Users\1\Desktop\PracticalWorks\Files\Tests\Files.dll
+C:\Users\1\Desktop\PracticalWorks\Files\Tests\Files.pdb
+C:\Users\1\Desktop\PracticalWorks\Files\Tests\nunit.framework.dll
+C:\Users\1\Desktop\PracticalWorks\Files\Tests\nunit.framework.xml
+C:\Users\1\Desktop\PracticalWorks\Files\obj\Debug\Files.dll
+C:\Users\1\Desktop\PracticalWorks\Files\obj\Debug\Files.pdb
