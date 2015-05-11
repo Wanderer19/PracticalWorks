@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DataStructure.Solutions.BinaryTreeTasks.BinaryTreeUtils
+namespace DataStructure.BinaryTreeTasks.BinaryTreeUtils
 {
     public class BinaryTree<T> where T : IComparable
     {

@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using DataStructure.Solutions.BinaryTreeTasks.BinaryTreeUtils;
+using DataStructure.BinaryTreeTasks.BinaryTreeUtils;
 using NUnit.Framework;
 
 namespace DataStructure.Tests

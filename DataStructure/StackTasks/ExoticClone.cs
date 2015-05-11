@@ -1,6 +1,6 @@
-﻿using DataStructure.Solutions.StackTasks.StackUtils;
+﻿using DataStructure.StackTasks.StackUtils;
 
-namespace DataStructure.Solutions.StackTasks
+namespace DataStructure.StackTasks
 {
     public class ExoticClone
     {

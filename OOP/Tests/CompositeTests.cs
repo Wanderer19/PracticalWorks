@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
-using OOP.Implementation.CompositeUtils;
-using OOP.Solutions.CompositeUtils;
+using OOP.CompositeUtils;
 
 namespace OOP.Tests
 {

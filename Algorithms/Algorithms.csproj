@@ -50,7 +50,6 @@
     <Compile Include="Sorters.cs" />
     <Compile Include="SubsetsGenerator.cs" />
     <Compile Include="Tests\PermutationsGeneratorTests.cs" />
-    <Compile Include="Tests\Program.cs" />
     <Compile Include="Tests\SearcherTests.cs" />
     <Compile Include="Tests\SortersTests.cs" />
     <Compile Include="Tests\SubsetsGeneratorTests.cs" />

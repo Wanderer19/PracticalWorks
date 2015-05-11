@@ -1,4 +1,4 @@
-﻿using DataStructure.Solutions.StackTasks;
+﻿using DataStructure.StackTasks;
 using NUnit.Framework;
 
 namespace DataStructure.Tests

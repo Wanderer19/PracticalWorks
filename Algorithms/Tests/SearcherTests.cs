@@ -1,5 +1,4 @@
 ﻿using System;
-using Algorithms.Solutions;
 using NUnit.Framework;
 
 namespace Algorithms.Tests

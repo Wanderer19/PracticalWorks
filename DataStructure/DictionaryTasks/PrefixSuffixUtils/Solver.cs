@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DataStructure.Solutions.DictionaryTasks.PrefixSuffixUtils
+namespace DataStructure.DictionaryTasks.PrefixSuffixUtils
 {
     public static class Solver
     {

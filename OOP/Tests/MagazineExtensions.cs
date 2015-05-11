@@ -1,4 +1,4 @@
-﻿using OOP.Solutions.LibraryUtils;
+﻿using OOP.LibraryUtils;
 
 namespace OOP.Tests
 {

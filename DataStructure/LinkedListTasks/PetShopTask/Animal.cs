@@ -1,4 +1,4 @@
-﻿namespace DataStructure.Solutions.LinkedListTasks.PetShopTask
+﻿namespace DataStructure.LinkedListTasks.PetShopTask
 {
     //абстрактный класс. Его экземпляры создавать нельзя, нужен  в качестве базы для наследников.
     public abstract class Animal

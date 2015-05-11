@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Algorithms.Solutions;
 using NUnit.Framework;
 
 namespace Algorithms.Tests

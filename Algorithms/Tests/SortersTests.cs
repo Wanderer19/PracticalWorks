@@ -1,5 +1,4 @@
-﻿using Algorithms.Solutions;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace Algorithms.Tests
 {

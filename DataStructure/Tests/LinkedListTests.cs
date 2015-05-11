@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using DataStructure.Solutions.LinkedListTasks.LinkedListUtils;
+using DataStructure.LinkedListTasks.LinkedListUtils;
 using NUnit.Framework;
 
 namespace DataStructure.Tests

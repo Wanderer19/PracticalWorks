@@ -1,4 +1,4 @@
-﻿using DataStructure.Solutions.LinkedListTasks.PetShopTask;
+﻿using DataStructure.LinkedListTasks.PetShopTask;
 using NUnit.Framework;
 
 namespace DataStructure.Tests

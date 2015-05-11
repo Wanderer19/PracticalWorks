@@ -1,5 +1,4 @@
 ﻿using System.IO;
-using Files.Solutions;
 using NUnit.Framework;
 
 namespace Files.Tests

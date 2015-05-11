@@ -1,5 +1,5 @@
 ﻿using System;
-using DataStructure.Solutions.QueueTasks.QueueUtils;
+using DataStructure.QueueTasks.QueueUtils;
 using NUnit.Framework;
 
 namespace DataStructure.Tests

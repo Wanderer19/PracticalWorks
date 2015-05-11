@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using DataStructure.Solutions.BinaryTreeTasks.BinaryTreeUtils;
+using DataStructure.BinaryTreeTasks.BinaryTreeUtils;
 
-namespace DataStructure.Solutions.BinaryTreeTasks
+namespace DataStructure.BinaryTreeTasks
 {
     public static class ParliamentTaskSolver
     {

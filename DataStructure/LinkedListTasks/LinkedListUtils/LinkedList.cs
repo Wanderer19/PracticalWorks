@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace DataStructure.Solutions.LinkedListTasks.LinkedListUtils
+namespace DataStructure.LinkedListTasks.LinkedListUtils
 {
     public class LinkedList<T> : IEnumerable<T>
     {

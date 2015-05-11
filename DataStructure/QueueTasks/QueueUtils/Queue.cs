@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DataStructure.Solutions.QueueTasks.QueueUtils
+namespace DataStructure.QueueTasks.QueueUtils
 {
     public class Queue<T>
     {

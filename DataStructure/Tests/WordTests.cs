@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using DataStructure.Solutions.DictionaryTasks.PrefixSuffixUtils;
+using DataStructure.DictionaryTasks.PrefixSuffixUtils;
 using NUnit.Framework;
 
 namespace DataStructure.Tests

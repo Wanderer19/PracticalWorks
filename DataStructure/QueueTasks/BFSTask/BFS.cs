@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DataStructure.Solutions.QueueTasks.BFSTask
+namespace DataStructure.QueueTasks.BFSTask
 {
     public static class Bfs
     {
@@ -20,7 +20,7 @@ namespace DataStructure.Solutions.QueueTasks.BFSTask
             used[finish] = true;
             parent[finish] = start;
 
-            var queue = new QueueUtils.Queue<int>();
+            var queue = new DataStructure.QueueTasks.QueueUtils.Queue<int>();
             queue.Enqueue(finish);
 
             /*Пока в очереди есть элементы , берем элемент из начала очереди

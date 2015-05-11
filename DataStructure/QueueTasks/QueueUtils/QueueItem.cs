@@ -1,4 +1,4 @@
-﻿namespace DataStructure.Solutions.QueueTasks.QueueUtils
+﻿namespace DataStructure.QueueTasks.QueueUtils
 {
     public class QueueItem<T>
     {

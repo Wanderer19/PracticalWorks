@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Linq;
+using DataStructure.QueueTasks.BFSTask;
 using NUnit.Framework;
-using DataStructure.Solutions.QueueTasks.BFSTask;
+
 namespace DataStructure.Tests
 {
     [TestFixture]

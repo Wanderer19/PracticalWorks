@@ -1,5 +1,4 @@
 ﻿using System;
-using CSharpFeatures.Solutions;
 using NUnit.Framework;
 
 namespace CSharpFeatures.Tests

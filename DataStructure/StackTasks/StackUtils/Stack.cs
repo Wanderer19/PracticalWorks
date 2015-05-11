@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DataStructure.Solutions.StackTasks.StackUtils
+namespace DataStructure.StackTasks.StackUtils
 {
     public class Stack<T>
     {

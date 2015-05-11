@@ -1,4 +1,4 @@
-﻿namespace DataStructure.Solutions.LinkedListTasks.LinkedListUtils
+﻿namespace DataStructure.LinkedListTasks.LinkedListUtils
 {
     public class LinkedListItem<T>
     {

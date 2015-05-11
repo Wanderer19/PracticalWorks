@@ -1,5 +1,4 @@
-﻿using CSharpFeatures.Solutions;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace CSharpFeatures.Tests
 {

@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-using OOP.Solutions.PeopleUtils;
+using OOP.PeopleUtils;
 
 namespace OOP.Tests
 {

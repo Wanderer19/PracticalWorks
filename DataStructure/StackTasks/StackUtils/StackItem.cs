@@ -1,4 +1,4 @@
-﻿namespace DataStructure.Solutions.StackTasks.StackUtils
+﻿namespace DataStructure.StackTasks.StackUtils
 {
     public class StackItem<T>
     {

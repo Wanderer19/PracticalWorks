@@ -1,5 +1,5 @@
 ﻿using System;
-using DataStructure.Solutions.StackTasks.StackUtils;
+using DataStructure.StackTasks.StackUtils;
 using NUnit.Framework;
 
 namespace DataStructure.Tests

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace OOP.Implementation
+namespace DataStructure.DictionaryTasks
 {
     public static class FrequencyDictionary
     {

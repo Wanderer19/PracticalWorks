@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DataStructure.Solutions.DictionaryTasks.PrefixSuffixUtils
+namespace DataStructure.DictionaryTasks.PrefixSuffixUtils
 {
     public class Word
     {

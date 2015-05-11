@@ -1,7 +1,7 @@
 ﻿using System;
-using DataStructure.Solutions.LinkedListTasks.LinkedListUtils;
+using DataStructure.LinkedListTasks.LinkedListUtils;
 
-namespace DataStructure.Solutions.LinkedListTasks.PetShopTask
+namespace DataStructure.LinkedListTasks.PetShopTask
 {
     public class PetShop
     {

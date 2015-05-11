@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DataStructure.Solutions.BinaryTreeTasks.BinaryTreeUtils
+namespace DataStructure.BinaryTreeTasks.BinaryTreeUtils
 {
     public class BinaryTreeItem<T> where T : IComparable
     {

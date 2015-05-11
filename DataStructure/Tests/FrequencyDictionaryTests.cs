@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
+using DataStructure.DictionaryTasks;
 using NUnit.Framework;
-using OOP.Implementation;
 
 namespace DataStructure.Tests
 {

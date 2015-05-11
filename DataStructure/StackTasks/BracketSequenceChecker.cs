@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace DataStructure.Solutions.StackTasks
+namespace DataStructure.StackTasks
 {
     public static class BracketSequenceChecker
     {
@@ -23,7 +23,7 @@ namespace DataStructure.Solutions.StackTasks
              *в конце, если стек не пуст, значит произошел случай вроде такого (()
              *значит последовательность неправильная
              */
-            var stack = new StackUtils.Stack<char>();
+            var stack = new DataStructure.StackTasks.StackUtils.Stack<char>();
             foreach (var ch in bracketSequence)
             {
                 if (Brackets.Keys.Contains(ch))
