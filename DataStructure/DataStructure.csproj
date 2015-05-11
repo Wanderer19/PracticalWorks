@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BDECA817-F8E9-4479-BBB9-B7EC90A80D52}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataStructure</RootNamespace>
+    <AssemblyName>DataStructure</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BinaryTreeTasks\BinaryTreeUtils\BinaryTree.cs" />
+    <Compile Include="BinaryTreeTasks\BinaryTreeUtils\BinaryTreeItem.cs" />
+    <Compile Include="BinaryTreeTasks\ParliamentTaskSolver.cs" />
+    <Compile Include="DictionaryTasks\FrequencyDictionary.cs" />
+    <Compile Include="DictionaryTasks\InvertedIndexUtils\Document.cs" />
+    <Compile Include="DictionaryTasks\InvertedIndexUtils\InvertedIndexBuilder.cs" />
+    <Compile Include="DictionaryTasks\PrefixSuffixUtils\Solver.cs" />
+    <Compile Include="DictionaryTasks\PrefixSuffixUtils\Word.cs" />
+    <Compile Include="LinkedListTasks\LinkedListUtils\LinkedList.cs" />
+    <Compile Include="LinkedListTasks\LinkedListUtils\LinkedListItem.cs" />
+    <Compile Include="LinkedListTasks\PetShopTask\Animal.cs" />
+    <Compile Include="LinkedListTasks\PetShopTask\Cat.cs" />
+    <Compile Include="LinkedListTasks\PetShopTask\Dog.cs" />
+    <Compile Include="LinkedListTasks\PetShopTask\PetShop.cs" />
+    <Compile Include="QueueTasks\BFSTask\BFS.cs" />
+    <Compile Include="QueueTasks\QueueUtils\Queue.cs" />
+    <Compile Include="QueueTasks\QueueUtils\QueueItem.cs" />
+    <Compile Include="StackTasks\BracketSequenceChecker.cs" />
+    <Compile Include="StackTasks\ExoticClone.cs" />
+    <Compile Include="StackTasks\StackUtils\Stack.cs" />
+    <Compile Include="StackTasks\StackUtils\StackItem.cs" />
+    <Compile Include="Tests\BfsTests.cs" />
+    <Compile Include="Tests\BinaryTreeTests.cs" />
+    <Compile Include="Tests\BracketsSequenceCheckerTests.cs" />
+    <Compile Include="Tests\ExoticCloneTests.cs" />
+    <Compile Include="Tests\FrequencyDictionaryTests.cs" />
+    <Compile Include="Tests\InvertedIndexTests.cs" />
+    <Compile Include="Tests\LinkedListTests.cs" />
+    <Compile Include="Tests\PetShopTests.cs" />
+    <Compile Include="Tests\QueueTests.cs" />
+    <Compile Include="Tests\StackTests.cs" />
+    <Compile Include="Tests\WordTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

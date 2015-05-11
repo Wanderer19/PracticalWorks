@@ -1,0 +1,18 @@
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\OOP\bin\Debug\OOP.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\OOP\bin\Debug\OOP.pdb
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\OOP\bin\Debug\nunit.framework.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\OOP\bin\Debug\nunit.framework.xml
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\OOP\obj\Debug\OOP.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\OOP\obj\Debug\OOP.pdb
+C:\Users\1\Documents\visual studio 2010\Projects\PracticalWorks_version2\OOP\bin\Debug\MoreLinq.dll
+C:\Users\1\Documents\visual studio 2010\Projects\PracticalWorks_version2\OOP\bin\Debug\MoreLinq.xml
+C:\Users\1\Documents\visual studio 2010\Projects\PracticalWorks_version2\OOP\obj\Debug\OOP.csprojResolveAssemblyReference.cache
+G:\CourseWork\OOP\bin\Debug\OOP.dll
+G:\CourseWork\OOP\bin\Debug\OOP.pdb
+G:\CourseWork\OOP\bin\Debug\MoreLinq.dll
+G:\CourseWork\OOP\bin\Debug\nunit.framework.dll
+G:\CourseWork\OOP\bin\Debug\MoreLinq.xml
+G:\CourseWork\OOP\bin\Debug\nunit.framework.xml
+G:\CourseWork\OOP\obj\Debug\OOP.csprojResolveAssemblyReference.cache
+G:\CourseWork\OOP\obj\Debug\OOP.dll
+G:\CourseWork\OOP\obj\Debug\OOP.pdb

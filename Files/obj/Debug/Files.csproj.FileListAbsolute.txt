@@ -1,0 +1,16 @@
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Files\bin\Debug\Files.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Files\bin\Debug\Files.pdb
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Files\bin\Debug\nunit.framework.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Files\bin\Debug\nunit.framework.xml
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Files\obj\Debug\Files.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Files\obj\Debug\Files.pdb
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Files\Tests\Files.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Files\Tests\Files.pdb
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Files\Tests\nunit.framework.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Files\Tests\nunit.framework.xml
+G:\CourseWork\Files\Tests\Files.dll
+G:\CourseWork\Files\Tests\Files.pdb
+G:\CourseWork\Files\Tests\nunit.framework.dll
+G:\CourseWork\Files\Tests\nunit.framework.xml
+G:\CourseWork\Files\obj\Debug\Files.dll
+G:\CourseWork\Files\obj\Debug\Files.pdb

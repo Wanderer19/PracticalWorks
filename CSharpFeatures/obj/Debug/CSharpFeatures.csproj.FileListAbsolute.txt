@@ -1,0 +1,12 @@
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\CSharpFeatures\bin\Debug\CSharpFeatures.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\CSharpFeatures\bin\Debug\CSharpFeatures.pdb
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\CSharpFeatures\bin\Debug\nunit.framework.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\CSharpFeatures\bin\Debug\nunit.framework.xml
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\CSharpFeatures\obj\Debug\CSharpFeatures.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\CSharpFeatures\obj\Debug\CSharpFeatures.pdb
+G:\CourseWork\CSharpFeatures\bin\Debug\CSharpFeatures.dll
+G:\CourseWork\CSharpFeatures\bin\Debug\CSharpFeatures.pdb
+G:\CourseWork\CSharpFeatures\bin\Debug\nunit.framework.dll
+G:\CourseWork\CSharpFeatures\bin\Debug\nunit.framework.xml
+G:\CourseWork\CSharpFeatures\obj\Debug\CSharpFeatures.dll
+G:\CourseWork\CSharpFeatures\obj\Debug\CSharpFeatures.pdb

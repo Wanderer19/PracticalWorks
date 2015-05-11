@@ -1,0 +1,14 @@
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Algorithms\bin\Debug\Algorithms.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Algorithms\bin\Debug\Algorithms.pdb
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Algorithms\bin\Debug\nunit.framework.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Algorithms\bin\Debug\nunit.framework.xml
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Algorithms\obj\Debug\Algorithms.dll
+C:\Users\1\Documents\Visual Studio 2010\Projects\PracticalWorks_version2\Algorithms\obj\Debug\Algorithms.pdb
+C:\Users\1\Documents\visual studio 2010\Projects\PracticalWorks_version2\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+G:\CourseWork\Algorithms\bin\Debug\Algorithms.dll
+G:\CourseWork\Algorithms\bin\Debug\Algorithms.pdb
+G:\CourseWork\Algorithms\bin\Debug\nunit.framework.dll
+G:\CourseWork\Algorithms\bin\Debug\nunit.framework.xml
+G:\CourseWork\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+G:\CourseWork\Algorithms\obj\Debug\Algorithms.dll
+G:\CourseWork\Algorithms\obj\Debug\Algorithms.pdb
